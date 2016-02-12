@@ -1,0 +1,13 @@
+html, body {
+  height: 100%;
+}
+
+body {
+  margin: 0 auto;
+  background-color: yellow;
+}
+
+.container {
+  background-color: white;
+  width: 90%;
+}

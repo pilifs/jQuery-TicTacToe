@@ -1,5 +1,5 @@
 function deleteCurrentBody() {
-  // Reset the board after a completed game
+  // Reset the board
   $('body .container').empty();
 }
 
