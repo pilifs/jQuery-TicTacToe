@@ -5,6 +5,7 @@ function deleteContainer() {
 
 function waitForGame() {
 
+  // This should be an AJAX call but it is beyond the scope of assignment.
   var initialHTML = '<h1>Start a new game of Tic Tac Toe!</h1><p>Num of players:</p><form id="form" onsubmit="return false;"><input type="text" id="numPlayers" /><p>Board size:</p><input type="text" id="boardSize" /><br><br><input type="submit" value="Start game!" onclick="initializegame();" /></form>';
   // Draw the initial game state form and wait for user input
   $('body .container').append(initialHTML);
@@ -13,8 +14,7 @@ function waitForGame() {
 
 
 // This is how I was going to do forms at first.
-// I decided against it because takes too long to escape all of the strings to add variables in a loop so I gave up. Not worth it for proof of concept. Adding initialHTML in one shot above.
-// Leaving below code for reference.
+// I decided it wasn't worth doing because I wanted to focus on other things.
 
 // Variables we want to get from the user
 // userInputs = [["numPlayers", "Enter number of players" ] ["boardSize", "Enter a board size (always square)"] ]
