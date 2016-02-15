@@ -9,6 +9,7 @@ function initializeGame() {
 
   // Add HTML elements corresponding to the board size and give them their appropriate magic #
   drawGameBoard(boardSize, magicSquares.squareOrder);
+  
 }
 
 function setSymbols(numPlayers) {

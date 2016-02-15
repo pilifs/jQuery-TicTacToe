@@ -1,4 +1,4 @@
-function deleteCurrentBody() {
+function deleteContainer() {
   // Reset the board
   $('body .container').empty();
 }
