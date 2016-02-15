@@ -5,7 +5,7 @@ function deleteContainer() {
 
 function waitForGame() {
 
-  var initialHTML = '<h1>Start a new game of Tic Tac Toe!</h1><p>Num of players:</p><form id="form" onsubmit="return false;"><input type="text" id="numPlayers" /><p>Board size:</p><input type="text" id="boardSize" /><br><br><input type="submit" value="Start game!" onclick="initializeGame();" /></form>';
+  var initialHTML = '<h1>Start a new game of Tic Tac Toe!</h1><p>Num of players:</p><form id="form" onsubmit="return false;"><input type="text" id="numPlayers" /><p>Board size:</p><input type="text" id="boardSize" /><br><br><input type="submit" value="Start game!" onclick="initializegame();" /></form>';
   // Draw the initial game state form and wait for user input
   $('body .container').append(initialHTML);
 
